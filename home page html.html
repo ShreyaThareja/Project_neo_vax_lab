@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>Neo-Vax-Lab</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <section class="header">
+    <nav>
+       <a href="index.html"><img src="images/logo.png"></a>
+           <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                   <li><a href="">HOME</a></li>
+                   <li><a href="file:///D:/project/about.html">ABOUT</a></li>
+                   <li><a href="file:///D:/project/otp.html">REGISTER/SIGN IN</a></li>
+            
+               </ul>
+           </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+ <div class="text-box">
+    <h1>Neonate Vaccination Lab</h1>
+    <p>NVL will assure every newborn gets proper access to vaccinations in their actual present time location.So that more and more of the world's children are vaccinated and protected.
+</p>
+    <a href ="file:///D:/project/about.html" class="hero-btn">click to know more</a>
+     </div>
+
+</section>
+<!------- content ------>
+ 
+  <section class ="content">
+     <h1> GET YOUR CHILD VACCINATED IN 3 EASY STEPS! </h1>
+     <div class="row">
+         <div class ="course-col">
+             <h2> GET SIGNED UP </h2>
+             <h3> STEP-1 </h3>
+             <p> Add your mobile number alongwith the password of your choice. Click on the REGISTER button below. </p>
+                <p style= "color:Tomato;" >  SIGNED UP! </p>
+         </div>
+         <div class ="course-col">
+            <h2> GET YOUR APPOINTMENT</h2>
+             <h3> STEP-2 </h3>
+             <p> Search your nearest vaccination center by entering valid details of your residence.</p>
+              <p style= "color:Tomato;" >YOUR SLOT IS BOOKED! </p>
+         </div>
+         <div class ="course-col">
+            <h2> GET VACCINATED </h2>
+             <h3> STEP-3 </h3>
+             <p>Once Vaccinated, make sure to collect your vaccination certificate and update on the website. </p> 
+                <p style= "color:Tomato;"> YOUR CHART IS NOW UPDATED!</p>
+         </div>
+     </div>
+  </section>
+  
+  
+  
+<!------javascript for Toggle Menu-----> 
+ <script>
+    var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+         navLinks.style.right = "0";
+     }
+     function hideMenu(){
+         navLinks.style.right = "-200px";
+     }
+    </script>
+
+</body>
+</html>
